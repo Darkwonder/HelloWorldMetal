@@ -11,6 +11,8 @@
 		F61A31C524BF555900A5333C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A31C424BF555900A5333C /* ViewController.swift */; };
 		F61A31C724BF555A00A5333C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61A31C624BF555A00A5333C /* Assets.xcassets */; };
 		F61A31CA24BF555A00A5333C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61A31C824BF555A00A5333C /* Main.storyboard */; };
+		F61A31D424BF55D800A5333C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F61A31D324BF55D800A5333C /* README.md */; };
+		F61A31D624BF55F700A5333C /* CustomMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A31D524BF55F700A5333C /* CustomMetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F61A31C924BF555A00A5333C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F61A31CB24BF555A00A5333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F61A31CC24BF555A00A5333C /* HelloWorldMetal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloWorldMetal.entitlements; sourceTree = "<group>"; };
+		F61A31D324BF55D800A5333C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F61A31D524BF55F700A5333C /* CustomMetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +57,24 @@
 		F61A31C124BF555900A5333C /* HelloWorldMetal */ = {
 			isa = PBXGroup;
 			children = (
+				F61A31D324BF55D800A5333C /* README.md */,
 				F61A31C224BF555900A5333C /* AppDelegate.swift */,
 				F61A31C424BF555900A5333C /* ViewController.swift */,
-				F61A31C624BF555A00A5333C /* Assets.xcassets */,
+				F61A31D524BF55F700A5333C /* CustomMetalView.swift */,
 				F61A31C824BF555A00A5333C /* Main.storyboard */,
-				F61A31CB24BF555A00A5333C /* Info.plist */,
 				F61A31CC24BF555A00A5333C /* HelloWorldMetal.entitlements */,
+				F61A31CB24BF555A00A5333C /* Info.plist */,
+				F61A31D224BF55A200A5333C /* Resources */,
 			);
 			path = HelloWorldMetal;
+			sourceTree = "<group>";
+		};
+		F61A31D224BF55A200A5333C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F61A31C624BF555A00A5333C /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61A31D424BF55D800A5333C /* README.md in Resources */,
 				F61A31C724BF555A00A5333C /* Assets.xcassets in Resources */,
 				F61A31CA24BF555A00A5333C /* Main.storyboard in Resources */,
 			);
@@ -133,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61A31C524BF555900A5333C /* ViewController.swift in Sources */,
+				F61A31D624BF55F700A5333C /* CustomMetalView.swift in Sources */,
 				F61A31C324BF555900A5333C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
